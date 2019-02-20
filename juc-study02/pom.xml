@@ -8,10 +8,10 @@
 		<version>1.5.19.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.atguig.jue</groupId>
-	<artifactId>jue-study</artifactId>
+	<groupId>com.atguigu.juc</groupId>
+	<artifactId>juc-study02</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jue-study</name>
+	<name>juc-study02</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -29,6 +29,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.18</version>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
